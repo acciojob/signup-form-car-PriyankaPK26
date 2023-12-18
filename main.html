@@ -10,7 +10,43 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form method="post" action="target.php">
+	<label for="name">Name</label><br>
+	<input type="text" id="name" name="name" placeholder="Priyanka Khirapate" required><br><br>
+	
+	<label for="email">Email</label><br>
+	<input type="email" id="email" name="email" placeholder="abc@gmail.com" required><br><br>
 
+	<label for="gender">Gender</label><br>
+	<input type="radio" id="gender_m" name="gender" value="Male" required>Male<br>
+	<input type="radio" id="gender_f" name="gender" value="Female" required>Female<br><br>
+
+	<label for="cars">Car Brands</label><br>
+	<select name="cars" id="cards" required>
+		<option>--Please choose an option--</option>
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="mercedes">Mercedes</option>
+		<option value="audi">Audi</option>
+	</select><br><br>
+
+	<label for="age" >Age</label><br>
+	<input type="Number" id="age" name="age" placeholder="Age" required><br><br>
+
+	<label for="dob">DOB</label><br>
+	<input type="Date" id="dob" name="dob" required><br><br>
+
+	<label for="tel">Phone Number</label><br>
+	<input type="Tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx" required><br><br>
+
+	<label for="password">Password</label><br>
+	<input type="password" id="password" name="password" placeholder="Password" required><br><br>
+
+	
+	<input type="checkbox" id="tos" name="tos"><label for="tos">I agree to the TOS</label><br>
+	
+	
+</form>
 </body>
 
 </html>
